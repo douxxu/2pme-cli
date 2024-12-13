@@ -1,0 +1,33 @@
+{
+  "name": "2pme",
+  "version": "1.0.0",
+  "description": "A CLI tool to interact with the 2PeekMe API",
+  "main": "src/2pme.js",
+  "bin": {
+    "2pme": "src/2pme.js"
+  },
+  "scripts": {
+    "start": "node src/2pme.js"
+  },
+  "keywords": [
+    "CLI",
+    "API",
+    "subdomains",
+    "DNS",
+    "2peekme",
+    "2pm",
+    "command-line",
+    "utility"
+  ],
+  "author": "Douxx",
+  "license": "GPL-3.0-only",
+  "dependencies": {
+    "axios": "*",
+    "colors": "*",
+    "commander": "*",
+    "readline": "*",
+    "fs": "*",
+    "path": "*"
+  },
+  "homepage": "https://2peek.me"
+}
